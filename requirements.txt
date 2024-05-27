@@ -13,3 +13,5 @@ fpdf
 unstructured
 pyowm
 tools
+textwrap3
+langchain_community

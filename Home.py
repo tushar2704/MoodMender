@@ -25,6 +25,38 @@ from crewai import Crew, Process, Agent, Task
 from langchain_community.tools import DuckDuckGoSearchRun
 search_tool = DuckDuckGoSearchRun()
 #from src
+from src.components.navigation import *
+
+
+
+
+
+
+
+
+######################################################################################
+#Intializing llm
+page_config("MoodMender", "🤖", "wide")
+custom_style()
+st.sidebar.image('./src/ygbj8rv2yafx6fsnqr2w.png')
+google_api_key = st.sidebar.text_input("Enter your GeminiPro API key:", type="password")
+
+llm = ChatGoogleGenerativeAI(model="gemini-pro", verbose=True, 
+                             temperature=0.2, google_api_key=google_api_key)
+######################################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
