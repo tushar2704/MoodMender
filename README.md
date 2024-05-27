@@ -5,6 +5,7 @@ Paris Syndrome is a psychological condition primarily affecting Japanese tourist
 
 
 
+![ygbj8rv2yafx6fsnqr2w](https://github.com/tushar2704/MoodMender/assets/66141195/1f85b5a0-9d4c-409b-b2ab-d471d704856f)
 
 
 
