@@ -26,7 +26,7 @@ from langchain_community.tools import DuckDuckGoSearchRun
 search_tool = DuckDuckGoSearchRun()
 #from src
 from src.components.navigation import *
-
+from src.crews.agents import *
 
 
 
@@ -35,6 +35,7 @@ from src.components.navigation import *
 #Homepage
 page_config("MoodMender", "🤖", "wide")
 custom_style()
+st.logo('./src/ygbj8rv2yafx6fsnqr2w.png')
 st.sidebar.image('./src/ygbj8rv2yafx6fsnqr2w.png')
 google_api_key = st.sidebar.text_input("Enter your GeminiPro API key:", type="password")
 
